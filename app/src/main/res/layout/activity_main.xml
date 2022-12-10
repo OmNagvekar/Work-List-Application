@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
+        android:onClick="openActivity"
         app:layout_constraintVertical_bias="0.914"
         app:srcCompat="@android:drawable/ic_input_add" />
 

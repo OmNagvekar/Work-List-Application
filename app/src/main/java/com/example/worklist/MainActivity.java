@@ -1,5 +1,6 @@
 package com.example.worklist;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -18,13 +19,19 @@ public class MainActivity extends AppCompatActivity {
         ActionBar.hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        floatingActionButton = findViewById(R.id.floatingActionButton);
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Add/Edit a Task", Toast.LENGTH_SHORT).show();
-                setContentView(R.layout.activity_main2);
-            }
-        });
+//        floatingActionButton = findViewById(R.id.floatingActionButton);
+//        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this, "Add/Edit a Task", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(this,MainActivity2.class);
+//                startActivity(intent);
+//                setContentView(R.layout.activity_main2);
+//            }
+//        });
+    }
+    public void openActivity(View v){
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
     }
 }
