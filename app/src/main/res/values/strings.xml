@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Work List</string>
+    <string name="floatingactionbutton">Add a Task</string>
+    <string name="editTextview"><b>Title</b></string>
+    <string name="EditTextview2"><b>Description</b></string>
+    <string name="EditTextview3"><b>Date</b></string>
+    <string name="EditTextview4"><b>Time</b></string>
+    <string name="floatingactionbutton2">Save</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>
