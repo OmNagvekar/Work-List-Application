@@ -19,13 +19,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
-            android:layout_weight="1"
             android:autofillHints=""
             android:background="@drawable/effect1"
             android:ems="10"
             android:hapticFeedbackEnabled="false"
             android:hint='@string/editTextview'
-            android:inputType="textMultiLine"
+            android:inputType="textPersonName"
             android:minHeight="48dp"
             android:padding="10dp"
             android:textColorHint="#757575" />
@@ -33,58 +32,72 @@
         <EditText
             android:id="@+id/editTextTextPersonName2"
             android:layout_width="match_parent"
-            android:layout_height="261dp"
+            android:layout_height="492dp"
             android:layout_marginBottom="10dp"
-            android:layout_weight="20"
             android:autofillHints=""
             android:background="@drawable/effect1"
             android:ems="10"
             android:gravity="start|top"
             android:hint="@string/EditTextview2"
-            android:inputType="textPersonName"
+            android:inputType="textMultiLine"
             android:padding="10dp"
             android:textColorHint="#757575" />
 
-        <EditText
-            android:id="@+id/editTextDate"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:layout_weight="1"
-            android:autofillHints=""
-            android:background="@drawable/effect1"
-            android:ems="10"
-            android:hint="@string/EditTextview3"
-            android:inputType="date"
-            android:minHeight="48dp"
-            android:padding="10dp"
-            android:textColorHint="#757575" />
+            android:text="@string/Textview"
+            android:textColor="@color/teal_200"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/editTextTime"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_weight="1"
-            android:autofillHints=""
-            android:background="@drawable/effect1"
-            android:ems="10"
-            android:hint="@string/EditTextview4"
-            android:inputType="time"
-            android:minHeight="48dp"
-            android:padding="10dp"
-            android:textColorHint="#757575" />
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:background="@drawable/effect1"
+                android:ems="10"
+                android:hint="@string/EditTextview3"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColorHint="#757575" />
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:background="@drawable/effect1"
+                android:ems="10"
+                android:hint="@string/EditTextview4"
+                android:inputType="time"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColorHint="#757575" />
+        </LinearLayout>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_gravity="bottom|start"
-            android:layout_weight="7"
             android:clickable="true"
             android:contentDescription="@string/floatingactionbutton2"
             android:focusable="true"
-            app:srcCompat="@android:drawable/ic_menu_save" />
+            app:srcCompat="@android:drawable/ic_menu_save"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
