@@ -8,98 +8,128 @@
     android:padding="15dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/effect1"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:hint='@string/editTextview'
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#0D0D0D"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:autofillHints=""
-            android:background="@drawable/effect1"
-            android:ems="10"
-            android:hapticFeedbackEnabled="false"
-            android:hint='@string/editTextview'
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:padding="10dp"
-            android:textColorHint="#757575" />
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="@drawable/effect1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/EditTextview2"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#0D0D0D"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
-            android:layout_width="match_parent"
-            android:layout_height="492dp"
-            android:layout_marginBottom="10dp"
-            android:autofillHints=""
-            android:background="@drawable/effect1"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="@string/EditTextview2"
-            android:inputType="textMultiLine"
-            android:padding="10dp"
-            android:textColorHint="#757575" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Textview"
+        android:textColor="#90CAF9"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/floatingActionButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/editTextDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:text="@string/Textview"
-            android:textColor="@color/teal_200"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/effect1"
+            android:ems="10"
+            android:hint="@string/EditTextview3"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#0D0D0D"
+            android:textColorHint="#757575"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            app:layout_wrapBehaviorInParent="included" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/editTextTime"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <EditText
-                android:id="@+id/editTextDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
-                android:autofillHints=""
-                android:background="@drawable/effect1"
-                android:ems="10"
-                android:hint="@string/EditTextview3"
-                android:inputType="date"
-                android:minHeight="48dp"
-                android:padding="10dp"
-                android:textColorHint="#757575" />
-
-            <EditText
-                android:id="@+id/editTextTime"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autofillHints=""
-                android:background="@drawable/effect1"
-                android:ems="10"
-                android:hint="@string/EditTextview4"
-                android:inputType="time"
-                android:minHeight="48dp"
-                android:padding="10dp"
-                android:textColorHint="#757575" />
-        </LinearLayout>
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton2"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="bottom|start"
-            android:clickable="true"
-            android:contentDescription="@string/floatingactionbutton2"
-            android:focusable="true"
-            app:srcCompat="@android:drawable/ic_menu_save"
-            tools:ignore="TouchTargetSizeCheck" />
-
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/effect1"
+            android:ems="10"
+            android:hint="@string/EditTextview4"
+            android:inputType="time"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#0D0D0D"
+            android:textColorHint="#757575"
+            android:textSize="18sp" />
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/floatingactionbutton2"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_action_name2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Mark as Important"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

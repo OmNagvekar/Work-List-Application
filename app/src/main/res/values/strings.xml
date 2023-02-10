@@ -8,4 +8,7 @@
     <string name="floatingactionbutton2">Save</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="Textview">Reminder</string>
+    <string name="ImageButton">Star</string>
+    <string name="Textview45">Are You Sure Do You Want to delete ?</string>
+    <string name="textview88">To use notification allow this app to use battery in background follow this path app info/battery/unrestricted</string>
 </resources>

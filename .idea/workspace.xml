@@ -5,21 +5,135 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d59c37bb-c295-46c0-bd8c-133cdbae6dcf" name="Changes" comment="">
+    <list default="true" id="d59c37bb-c295-46c0-bd8c-133cdbae6dcf" name="Changes" comment="git commit -a">
+      <change afterPath="$PROJECT_DIR$/.idea/WorkList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqlandroid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/logo-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/logo2-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/logo3-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-anydpi/ic_action_name2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-hdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-hdpi/ic_action_name2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-mdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-mdpi/ic_action_name2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-xhdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-xhdpi/ic_action_name2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-xxhdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-xxhdpi/ic_action_name2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable-xxxhdpi/ic_action_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/drawable/star_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/logo2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/logo2_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/logo3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/logo3_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/logo_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo2_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo3_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo3_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo2_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo3_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo3_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo2_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo3_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo3_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo2_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo3_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo3_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo2_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo2_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo3_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo3_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/logo_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/values/logo2_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/values/logo3_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/values/logo_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/star-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/DatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/MainActivity3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_task_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_delete_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_star_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/singlerow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/worklist/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
@@ -46,11 +160,30 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2IjRpK6MZ6cqXLxJbRBgyTWk6c4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,21 +191,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Om Nagvekar\Downloads\WorkList\app\src\main\res\drawable-v24" />
     </key>
     <key name="android.template.458834583">
+      <recent name="com.example.worklist" />
+    </key>
+    <key name="android.template.512829199">
       <recent name="com.example.worklist" />
     </key>
   </component>
@@ -126,7 +259,6 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-        <option name="PROFILING_MODE" value="NOT_SET" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -146,6 +278,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670693187840</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit -a">
+      <created>1670753501849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670753501849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,5 +298,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit -a" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -a" />
   </component>
 </project>
