@@ -4,16 +4,22 @@ import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -28,12 +34,46 @@ public class MainActivity extends AppCompatActivity implements Adapter.onEditLis
     AlertDialog alertDialog;
     private  AlarmManager alarmManager;
     private PendingIntent pendingIntent;
+    private static final int STORAGE_PERMISSION_CODE = 101;
     protected DatabaseManager databaseManager = new DatabaseManager(this);
     @Override
 
     protected void onResume(){
         super.onResume();
         refreshView();
+    }
+    public void checkPermission(String permission, int requestCode)
+    {
+        // Checking if permission is not granted
+        if (ContextCompat.checkSelfPermission(MainActivity.this, permission) == PackageManager.PERMISSION_DENIED) {
+            ActivityCompat.requestPermissions(MainActivity.this, new String[] { permission }, requestCode);
+        }
+        else {
+            //Toast.makeText(MainActivity.this, "Permission already granted", Toast.LENGTH_SHORT).show();
+        }
+    }
+    // This function is called when user accept or decline the permission.
+    // Request Code is used to check which permission called this function.
+    // This request code is provided when user is prompt for permission.
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           @NonNull String[] permissions,
+                                           @NonNull int[] grantResults)
+    {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (requestCode == STORAGE_PERMISSION_CODE) {
+
+            // Checking whether user granted the permission or not.
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                // Showing the toast message
+                //Toast.makeText(MainActivity.this, "Storage Permission Granted", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Toast.makeText(MainActivity.this, "Storage Permission Denied", Toast.LENGTH_SHORT).show();
+            }
+        }
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +85,14 @@ public class MainActivity extends AppCompatActivity implements Adapter.onEditLis
         floatingActionButton=findViewById(R.id.floatingActionButton);
         recyclerView =(RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            // only for android 13 or above
+            checkPermission("android.permission.POST_NOTIFICATIONS",101);
+            checkPermission("android.permission.FOREGROUND_SERVICE",102);
+        }else{
+            checkPermission("android.permission.POST_NOTIFICATIONS",101);
+            checkPermission("android.permission.FOREGROUND_SERVICE",102);
+        }
 
 
 //        Cursor cr1 = databaseManager.fetch();
