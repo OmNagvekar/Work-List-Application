@@ -24,7 +24,7 @@ public class Notification extends BroadcastReceiver {
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         PendingIntent pendingIntent = PendingIntent.getActivity(context,uid,i,PendingIntent.FLAG_IMMUTABLE);
         NotificationCompat.Builder   builder = new NotificationCompat.Builder(context,"note1")
-                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setSmallIcon(R.drawable.logo3)
                 .setContentTitle("Work List")
                 .setContentText(noti+" Is Due")
                 .setAutoCancel(true)
