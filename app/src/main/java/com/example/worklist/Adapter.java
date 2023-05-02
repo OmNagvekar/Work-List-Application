@@ -52,13 +52,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyviewHolder> {
         else{
             holder.dbutton.setVisibility(View.VISIBLE);
         }
-
         if (dataholder.get(position).getComplete() ==1){
             holder.chBox.setChecked(true);
             holder.dtitle.setPaintFlags(holder.dtitle.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
         }
         else {
             holder.chBox.setChecked(false);
+            holder.dtitle.setPaintFlags(holder.dtitle.getPaintFlags() & (~Paint.STRIKE_THRU_TEXT_FLAG));
         }
         holder.cl.setOnClickListener(new View.OnClickListener() {
             @Override
